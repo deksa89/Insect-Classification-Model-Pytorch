@@ -15,7 +15,7 @@ Project Description:
  - this is a small and demonstrative project that classifies 12 different insects and returns their latin names
  - image classification is done by using torch 1.10.2, matplotlib 3.5.1 for visualization and scikit-learn 1.0.2 for making a confusion matrix
  - project itself was fed with 5200 images of 12 different insects splited in 3 folders: training, validation and test
- - final model was trained using resnet18 whose initial weights were trained using imagenet which showed high accuracy on test images >94%
+ - final model was trained using resnet18 which showed high accuracy on test images >94%
  
  
 
