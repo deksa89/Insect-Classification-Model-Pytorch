@@ -1,0 +1,131 @@
+absl-py==1.0.0
+asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1618968359944/work
+backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
+backports.csv==1.0.7
+backports.functools-lru-cache @ file:///home/conda/feedstock_root/build_artifacts/backports.functools_lru_cache_1618230623929/work
+beautifulsoup4==4.10.0
+black==22.1.0
+Bottleneck @ file:///C:/ci/bottleneck_1607557040328/work
+cachetools==5.0.0
+certifi==2021.10.8
+cffi==1.15.0
+chardet==4.0.0
+charset-normalizer==2.0.12
+cheroot==8.6.0
+CherryPy==18.6.1
+click==8.0.3
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1602866480661/work
+cryptography==36.0.1
+cycler==0.11.0
+Cython==0.29.23
+debugpy @ file:///D:/bld/debugpy_1636043436560/work
+decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1641555617451/work
+detecto==1.2.2
+dlib @ file:///D:/bld/dlib_1617441752500/work
+entrypoints @ file:///home/conda/feedstock_root/build_artifacts/entrypoints_1643888246732/work
+executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1646044401614/work
+feedparser==6.0.8
+fonttools==4.28.5
+future==0.18.2
+gensim==4.1.2
+google-auth==2.6.0
+google-auth-oauthlib==0.4.6
+grpcio==1.43.0
+idna==3.3
+importlib-metadata==4.11.0
+imutils==0.5.4
+ipykernel @ file:///D:/bld/ipykernel_1644980088950/work/dist/ipykernel-6.9.1-py3-none-any.whl
+ipython @ file:///D:/bld/ipython_1646325032429/work
+jaraco.classes==3.2.1
+jaraco.collections==3.5.1
+jaraco.context==4.1.1
+jaraco.functools==3.5.0
+jaraco.text==3.7.0
+jedi @ file:///D:/bld/jedi_1637175252639/work
+joblib==1.1.0
+jupyter-client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1642858610849/work
+jupyter-core @ file:///D:/bld/jupyter_core_1645024665167/work
+kiwisolver==1.3.2
+labelImg==1.8.6
+lxml==4.7.1
+Markdown==3.3.6
+matplotlib==3.5.1
+matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1631080358261/work
+mkl-fft==1.3.1
+mkl-random @ file:///C:/ci/mkl_random_1626186184308/work
+mkl-service==2.4.0
+more-itertools==8.12.0
+mypy-extensions==0.4.3
+mysqlclient==2.1.0
+nest-asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1638419302549/work
+nltk==3.7
+numexpr @ file:///C:/ci/numexpr_1640704337920/work
+numpy==1.22.3
+oauthlib==3.2.0
+olefile @ file:///Users/ktietz/demo/mc3/conda-bld/olefile_1629805411829/work
+opencv-python==4.5.5.62
+packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
+pandas @ file:///C:/ci/pandas_1641443174429/work
+parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1638334955874/work
+pathspec==0.9.0
+Pattern==3.6
+pdfminer.six==20211012
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+Pillow==8.4.0
+platformdirs==2.5.0
+portend==3.1.0
+prompt-toolkit==3.0.28
+protobuf==3.19.4
+pure-eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1642875951954/work
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycocotools==2.0.4
+pycparser==2.21
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1641580240686/work
+pyparsing @ file:///tmp/build/80754af9/pyparsing_1635766073266/work
+PyQt5==5.15.6
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.9.1
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-docx==0.8.11
+pytz==2021.3
+pywin32==303
+PyYAML==6.0
+pyzmq @ file:///D:/bld/pyzmq_1635877415276/work
+regex==2022.1.18
+requests==2.27.1
+requests-oauthlib==1.3.1
+rsa==4.8
+scikit-learn==1.0.2
+scipy==1.8.0
+seaborn==0.11.2
+sgmllib3k==1.0.0
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+smart-open==5.2.1
+soupsieve==2.3.1
+split-folders==0.5.0
+stack-data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1644872665635/work
+tempora==5.0.1
+tensorboard==2.8.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+tensorboardX==2.5
+textblob==0.17.1
+thop==0.0.31.post2005241907
+threadpoolctl==3.1.0
+timm==0.5.4
+tomli==2.0.1
+torch==1.10.2+cu113
+torchaudio==0.10.2+cu113
+torchtext==0.4.0
+torchvision==0.11.3+cu113
+tornado @ file:///D:/bld/tornado_1635819745510/work
+tqdm==4.62.3
+traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1635260543454/work
+typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1631814937681/work
+urllib3==1.26.8
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1600965781394/work
+Werkzeug==2.0.3
+wincertstore==0.2
+zc.lockfile==2.0
+zipp==3.7.0
