@@ -4,7 +4,7 @@ from fastapi import FastAPI, File, UploadFile
 import uvicorn
 from io import BytesIO
 import numpy as np
-
+from torchvision.transforms import Compose, Resize, ToTensor, Normalize
 
 
 BATCH_SIZE = 32
