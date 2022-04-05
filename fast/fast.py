@@ -29,19 +29,18 @@ image_transforms = Compose([
 
 target_labels = ['adalia bipunctata', 'calliteara pudibunda', 'cerambyx cerdo', 'gryllotalpa gryllotalpa', 'lucanus cervus', 'mantis religiosa', 'melolontha melolontha', 'phyrrochorus apterus', 'rhaphigaster nebulosa', 'sesia apiformis', 'tettigonia viridissima', 'xylocopa violacea']
 
+# just for testing
+#def classify(model, image_transform, image_path, classes):
+#    model = model.eval()
+#    image = Image.open(image_path)
+#    image = image_transform(image).float().to(device)
+#    image = image.unsqueeze(0)
 
-def classify(model, image_transform, image_path, classes):
-    model = model.eval()
-    image = Image.open(image_path)
-    image = image_transform(image).float().to(device)
-    image = image.unsqueeze(0)
+#    output = model(image)
+#    _, predicted = torch.max(output.data, 1)
+#    print(classes[predicted.item()])
 
-    output = model(image)
-    _, predicted = torch.max(output.data, 1)
-    print(classes[predicted.item()])
-
-
-classify(model, image_transforms, "test_photo.jpg", classes=target_labels)
+#classify(model, image_transforms, "test_photo.jpg", classes=target_labels)
 
 app = FastAPI()
 
@@ -50,9 +49,17 @@ origins = [
     "http://localhost:3000",
 ]
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 @app.get("/ping")
 async def ping():
-    return "Bok Deane, ovo zasad radi :D"
+    return "Bok! Ovo zasad radi :D"
 
 def read_file_as_image(data) -> np.ndarray:
     image = Image.open(BytesIO(data))
