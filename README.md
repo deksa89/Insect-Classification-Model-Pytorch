@@ -27,7 +27,8 @@ Project Description:
 ![successfully returned ping](https://user-images.githubusercontent.com/89583742/161728619-eb8bc9f1-ae12-4c6f-bfc1-9eadab20139e.jpg)
 
 
-FRONTEND
+FRONTEND part of the project
+
 to install frontend:
  - install NodeJS and NPM
  - install dependencies in frontend folder cd Desktop/Insects/frontend by typing npm install --from-lock-json and then npm audit fix
