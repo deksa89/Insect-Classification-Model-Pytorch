@@ -17,6 +17,11 @@ It's just a beginning :D
  - image classification is done by using torch 1.10.2, matplotlib 3.5.1 for visualization and scikit-learn 1.0.2 for making a confusion matrix
  - model was fed with 5200 images of 12 different insects splited in 3 folders: training, validation and test
  - final model was trained using resnet18 which showed high accuracy on test images >94%
+
+to run the model:
+ - clone the repository
+ - install requirements.txt
+ - run pytorch_insect_classification_model.ipynb
  
  
 
@@ -37,6 +42,7 @@ to install frontend:
 to run frontend:
  - go to frontend folder
  - run the frontend by typing npm run start in cmd
+ 
 ![Screenshot](https://user-images.githubusercontent.com/89583742/161758722-7c66f494-c27d-4f99-a1bd-1d9c8e5eef51.jpg)
 
 <!--
