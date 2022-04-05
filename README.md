@@ -1,6 +1,6 @@
 Insect classification model made using pytorch
 
-INTRO
+# INTRO
 This is my first model which is actually the result of my experience in forestry and completed a course in the field of artificial intelligence.
 The project is just a basis for creating a much bigger model that would be actually useful for those unexperienced in entomology. 
 Creating the model wasn't a big deal as much as collecting insect images which I got help from Faculty of Forestry in Zagreb.
@@ -11,7 +11,7 @@ scikit-learn or using tensorboard to track model's curve to tell whether model i
 
 It's just a beginning :D
 
-Project Description:
+## Project Description:
  - this is a small and demonstrative project that classifies 12 different insects and returns their latin names
  - those insects are: Adalia bipunctata', Calliteara pudibunda, Cerambyx cerdo, Gryllotalpa gryllotalpa, Lucanus cervus, Mantis religiosa, Melolontha melolontha, Phyrrochorus apterus, Rhaphigaster nebulosa, Sesia apiformis, Tettigonia viridissima, Xylocopa violacea.
  - image classification is done by using torch 1.10.2, matplotlib 3.5.1 for visualization and scikit-learn 1.0.2 for making a confusion matrix
@@ -27,7 +27,7 @@ Project Description:
 ![successfully returned ping](https://user-images.githubusercontent.com/89583742/161728619-eb8bc9f1-ae12-4c6f-bfc1-9eadab20139e.jpg)
 
 
-FRONTEND part of the project
+## FRONTEND part of the project
 
 to install frontend:
  - install NodeJS and NPM
@@ -38,4 +38,8 @@ to run frontend:
  - go to frontend folder
  - run the frontend by typing npm run start in cmd
 ![Screenshot](https://user-images.githubusercontent.com/89583742/161758722-7c66f494-c27d-4f99-a1bd-1d9c8e5eef51.jpg)
+
+<!--
+<img src="https://user-images.githubusercontent.com/89583742/161758722-7c66f494-c27d-4f99-a1bd-1d9c8e5eef51.jpg" width=250px />
+-->
 
