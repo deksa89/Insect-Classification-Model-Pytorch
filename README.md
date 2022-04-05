@@ -25,3 +25,16 @@ Project Description:
 ![results matplotlib](https://user-images.githubusercontent.com/89583742/161552413-ddb8f95c-5269-4dbb-9ff2-d4b3b277215a.png)
 ![confusion_matrix](https://user-images.githubusercontent.com/89583742/161552455-6b93fc1c-bc71-45a7-ae16-f0f643652d4d.png)
 ![successfully returned ping](https://user-images.githubusercontent.com/89583742/161728619-eb8bc9f1-ae12-4c6f-bfc1-9eadab20139e.jpg)
+
+
+FRONTEND
+to install frontend:
+ - install NodeJS and NPM
+ - install dependencies in frontend folder cd Desktop/Insects/frontend by typing npm install --from-lock-json and then npm audit fix
+ - copy and rename .env.example to .env and change REACT_APP_API_URL to API URL if needed
+
+to run frontend:
+ - go to frontend folder
+ - run the frontend by typing npm run start in cmd
+![Screenshot](https://user-images.githubusercontent.com/89583742/161758722-7c66f494-c27d-4f99-a1bd-1d9c8e5eef51.jpg)
+
