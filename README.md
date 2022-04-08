@@ -18,6 +18,7 @@ It's just a beginning :D
  - model was fed with 5200 images of 12 different insects splited in 3 folders: training, validation and test
  - final model was trained using pretrained resnet18 which showed high accuracy on test images >94% after just 4 epochs
  - I have also tried model from https://github.com/rwightman/pytorch-image-models but built-in resnet18 did its job
+ - frontend was cloned from https://github.com/codebasics/potato-disease-classification/tree/main/frontend and the background image was replaced as well as the title
 
 to run the model:
  - clone the repository
