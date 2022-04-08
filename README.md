@@ -39,7 +39,7 @@ to install frontend:
  - copy and rename `.env.example` to `.env` and change REACT_APP_API_URL to API URL if needed
 
 to run frontend:
- - first run `model.py`and `fast.py`
+ - first run `model.py` and `fast.py`
  - go to frontend folder in cmd, e.g. C:\Users\User\Desktop\torch_model\frontend>
  - run the frontend by typing `npm run start` in cmd
  
