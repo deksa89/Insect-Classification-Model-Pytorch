@@ -39,7 +39,7 @@ to install frontend:
 
 to run frontend:
  - first run `fast.py` and `model.py`
- - go to frontend folder
+ - go to frontend folder in cmd, e.g. C:\Users\User\Desktop\torch_model\frontend>
  - run the frontend by typing `npm run start` in cmd
  
 ![Screenshot](https://user-images.githubusercontent.com/89583742/161758722-7c66f494-c27d-4f99-a1bd-1d9c8e5eef51.jpg)
