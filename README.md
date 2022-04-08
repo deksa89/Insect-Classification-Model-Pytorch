@@ -15,7 +15,7 @@ It's just a beginning :D
  - this is a small and demonstrative project that classifies 12 different insects and returns their latin names
  - those insects are: Adalia bipunctata, Calliteara pudibunda, Cerambyx cerdo, Gryllotalpa gryllotalpa, Lucanus cervus, Mantis religiosa, Melolontha melolontha, Phyrrochorus apterus, Rhaphigaster nebulosa, Sesia apiformis, Tettigonia viridissima, Xylocopa violacea
  - image classification is done by using `torch 1.10.2`, `matplotlib 3.5.1` for visualization and `scikit-learn 1.0.2` for making a confusion matrix
- - model was fed with 5200 images of 12 different insects splited in 3 folders: training, validation and test
+ - model was fed with 5500 images of 12 different insects splited in 3 folders: training, validation and test
  - final model was trained using pretrained resnet18 which showed high accuracy on test images >94% after just 4 epochs
  - I have also tried model from https://github.com/rwightman/pytorch-image-models but built-in resnet18 did its job
  - frontend was cloned from https://github.com/codebasics/potato-disease-classification/tree/main/frontend and the background image was replaced as well as the title
